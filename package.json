@@ -1,0 +1,33 @@
+{
+  "name": "react-keycloak-client",
+  "version": "0.0.1",
+  "description": "React Keycloak Client provides an integration with Keycloak authentication and authorization server for React applications. This package enables connecting to a Keycloak server and handling user authentication and authorization.",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "scripts": {
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs"
+  },
+  "author": "Gökhan Gündüz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gokhangunduz/react-keycloak-client.git"
+  },
+  "keywords": [
+    "react",
+    "keycloak",
+    "client"
+  ],
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "keycloak-js": "^24.0.1"
+  }
+}
