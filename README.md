@@ -1,4 +1,4 @@
-![Reawind](/docs/images/banner.jpg "react-keycloak-client")
+![react-keycloak-client](/docs/images/banner.jpg "react-keycloak-client")
 
 # React Keycloak Client
 
