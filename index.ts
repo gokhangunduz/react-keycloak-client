@@ -1,4 +1,4 @@
 import KeycloakProvider from "./src/context";
-import { useKeycloak } from "./src/hook";
+import useKeycloak from "./src/hook";
 
 export { KeycloakProvider, useKeycloak };
